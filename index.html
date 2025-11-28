@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Menu List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Our Menu</h1>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search menu items..." aria-label="Search menu">
+      <select id="category">
+        <option value="all">All categories</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section id="menu-list" class="menu-grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">Simple static menu demo — open `index.html` in a browser.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

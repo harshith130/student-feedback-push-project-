@@ -1,0 +1,21 @@
+:root{
+  --bg:#f8f9fb; --card:#fff; --accent:#2b8aee; --muted:#6b7280; --radius:10px;
+}
+*{box-sizing:border-box}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;background:var(--bg);margin:0;color:#111}
+.site-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;background:linear-gradient(90deg,#fff, #f1f5f9);box-shadow:0 1px 0 rgba(0,0,0,.04)}
+.site-header h1{margin:0;font-size:1.25rem}
+.controls{display:flex;gap:12px;align-items:center}
+input[type=search]{padding:8px 12px;border-radius:8px;border:1px solid #d1d5db;min-width:220px}
+select{padding:8px 10px;border-radius:8px;border:1px solid #d1d5db}
+
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;padding:20px}
+.menu-card{background:var(--card);border-radius:var(--radius);padding:14px;box-shadow:0 6px 18px rgba(13,38,59,0.06);display:flex;flex-direction:column;gap:8px}
+.menu-card h3{margin:0;font-size:1.05rem}
+.menu-card p{margin:0;color:var(--muted);font-size:.95rem}
+.price{margin-left:auto;font-weight:600;color:var(--accent)}
+.meta{display:flex;align-items:center;gap:8px}
+
+.site-footer{padding:12px 20px;color:var(--muted);font-size:.9rem;text-align:center}
+
+@media (max-width:520px){.controls{flex-direction:column;align-items:stretch}.site-header{padding:12px}}

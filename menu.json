@@ -1,0 +1,8 @@
+[
+  {"id":1,"name":"Margherita Pizza","description":"Classic pizza with tomato, mozzarella and basil.","price":10.50,"category":"Pizza"},
+  {"id":2,"name":"Pepperoni Pizza","description":"Pepperoni, tomato sauce, and mozzarella.","price":12.00,"category":"Pizza"},
+  {"id":3,"name":"Caesar Salad","description":"Crisp romaine, parmesan, croutons and caesar dressing.","price":8.00,"category":"Salads"},
+  {"id":4,"name":"Grilled Chicken","description":"Herb-marinated chicken breast with roasted vegetables.","price":14.25,"category":"Mains"},
+  {"id":5,"name":"Spaghetti Bolognese","description":"Slow-cooked beef ragu over spaghetti.","price":11.75,"category":"Pasta"},
+  {"id":6,"name":"Tiramisu","description":"Coffee-flavoured Italian dessert with mascarpone.","price":6.50,"category":"Desserts"}
+]
